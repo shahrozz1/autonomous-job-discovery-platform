@@ -7,4 +7,4 @@ __pycache__/
 .env
 
 # The database holds full job descriptions, which belong to the companies that wrote them.
-data/
+/data/

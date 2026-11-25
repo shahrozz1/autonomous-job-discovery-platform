@@ -3,7 +3,7 @@
 [![tests](https://github.com/shahrozz1/autonomous-job-discovery-platform/actions/workflows/tests.yml/badge.svg)](https://github.com/shahrozz1/autonomous-job-discovery-platform/actions/workflows/tests.yml)
 [![daily run](https://github.com/shahrozz1/autonomous-job-discovery-platform/actions/workflows/daily.yml/badge.svg)](https://github.com/shahrozz1/autonomous-job-discovery-platform/actions/workflows/daily.yml)
 
-**Python · SQL (SQLite) · GitHub Actions · Claude API (optional)**
+**Python · SQL (SQLite) · GitHub Actions · JavaScript**
 
 Job boards are full of reposts, ads and "entry-level" roles that want five years of experience. Roleful skips them. Every weekday it reads the career pages of 536 companies on its own, keeps the analyst and operations jobs, works out what each one really asks for, and puts the result in one searchable, scored list.
 
@@ -132,6 +132,7 @@ tests/             188 tests, made-up feeds, 200 labeled postings
 - SpaceX and Anduril list many similar jobs. Together they are 28% of the open jobs, most of them in supply chain and buying.
 - A skill counts as required when it's named in the requirements or in the duties. That's close to, but not the same as, a hard requirement.
 - The fit score ranks jobs for a sample profile with weights I chose. It isn't a prediction of who gets hired.
+- The optional AI step is tested against a stand-in for the API. It hasn't been run on live postings yet, so none of the numbers here come from it.
 - Time to close ([11](sql/analysis/11_time_to_close.sql)) needs a few weeks of runs before it says anything.
 
 ---

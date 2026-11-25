@@ -1,0 +1,26 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "9f",
+      "title": "Data Analyst",
+      "department": "Data",
+      "employmentType": "FullTime",
+      "location": "New York, NY",
+      "secondaryLocations": [{ "location": "San Francisco, CA" }],
+      "publishedAt": "2026-11-22T12:00:00.000+00:00",
+      "isListed": true,
+      "workplaceType": "Hybrid",
+      "address": { "postalAddress": { "addressCountry": "United States" } },
+      "jobUrl": "https://jobs.ashbyhq.com/fernwood/9f",
+      "descriptionHtml": "<h2>You have</h2><ul><li><p>1+ years of experience with SQL</p></li></ul>",
+      "compensation": {
+        "summaryComponents": [
+          { "compensationType": "EquityPercentage", "interval": "NONE" },
+          { "compensationType": "Salary", "interval": "1 YEAR", "currencyCode": "USD", "minValue": 70000, "maxValue": 85000 }
+        ]
+      }
+    },
+    { "id": "hidden", "title": "Data Analyst II", "jobUrl": "https://jobs.ashbyhq.com/fernwood/hidden", "isListed": false }
+  ]
+}

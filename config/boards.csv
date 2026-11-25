@@ -1,0 +1,542 @@
+company,platform,board
+15Five,lever,15five
+1Password,ashby,1password
+1X,ashby,1x
+2K,greenhouse,2k
+2U,greenhouse,2u
+6sense,greenhouse,6sense
+a16z,greenhouse,a16z
+Abnormal,greenhouse,abnormalsecurity
+Abridge,ashby,abridge
+Adyen,greenhouse,adyen
+Affirm,greenhouse,affirm
+Afresh,greenhouse,afresh
+AfterShip,greenhouse,aftership
+AG1,greenhouse,ag1
+Agility Robotics,greenhouse,agilityrobotics
+Aimé Leon Dore,greenhouse,aimeleondore
+Airbnb,greenhouse,airbnb
+Airbyte,ashby,airbyte
+Airgoods,ashby,airgoods
+Airtable,greenhouse,airtable
+Airwallex,ashby,airwallex
+Akuna Capital,greenhouse,akunacapital
+Alector,ashby,alector
+Alector,lever,alector
+Aledade,lever,aledade
+AlixPartners,greenhouse,alixpartners
+Alloy,greenhouse,alloy
+Alloy.ai,lever,alloy
+Alo Yoga,greenhouse,aloyoga
+Alpaca,greenhouse,alpaca
+Altana,ashby,altana
+Altos Labs,greenhouse,altoslabs
+Anaplan,greenhouse,anaplan
+Anchorage Digital,lever,anchorage
+Anduril Industries,greenhouse,andurilindustries
+AngelList,lever,angellist
+Anthropic,greenhouse,anthropic
+Apollo,ashby,apollo
+Apollo.io,greenhouse,apolloio
+Appen,greenhouse,appen
+AppLovin,greenhouse,applovin
+Apptronik,greenhouse,apptronik
+Arcadia,lever,arcadia
+Archive,ashby,archive
+Arrive Logistics,greenhouse,arrivelogistics
+Asana,greenhouse,asana
+Ashby,ashby,ashby
+Assembly,ashby,assembly
+Astranis,greenhouse,astranis
+Astronomer,ashby,astronomer
+Atlas,ashby,atlas
+Attentive,greenhouse,attentive
+Auctane,greenhouse,auctane
+Aurora Solar,ashby,aurorasolar
+Axios,greenhouse,axios
+Axonius,greenhouse,axonius
+AXS,greenhouse,axs
+BARK,greenhouse,bark
+Barstool Sports,greenhouse,barstoolsports
+Baseten,ashby,baseten
+Basis,lever,basis
+BEAM,greenhouse,beam
+Belvedere Trading,lever,belvederetrading
+Benchling,ashby,benchling
+Betr,lever,betr
+BetterHelp,greenhouse,betterhelp
+Betterment,greenhouse,betterment
+BetterUp,ashby,betterup
+BILL,greenhouse,billcom
+Bird,greenhouse,bird
+Bitwarden,greenhouse,bitwarden
+Blend,greenhouse,blend
+Blink Health,greenhouse,blinkhealth
+Blockchain.com,greenhouse,blockchain
+Blue Bottle Coffee,lever,bluebottlecoffee
+Bombas,greenhouse,bombas
+Bond Vet,greenhouse,bondvet
+Boom,ashby,boom
+Brainlabs,greenhouse,brainlabs
+Braze,greenhouse,braze
+Brex,greenhouse,brex
+Bright Machines,lever,brightmachines
+Brightwheel,ashby,brightwheel
+Brilliant,lever,brilliant
+Bringg,greenhouse,bringg
+Buck Mason,lever,buckmason
+Built In,greenhouse,builtin
+Bungie,greenhouse,bungie
+Butter,ashby,butter
+BuzzFeed,greenhouse,buzzfeed
+CAI,lever,cagents
+Calm,greenhouse,calm
+Cameo,greenhouse,cameo
+Candid Health,ashby,candidhealth
+Capsule,ashby,capsule
+Carta,greenhouse,carta
+Causal Labs,ashby,causal
+Celonis,greenhouse,celonis
+Cerebras,ashby,cerebras
+cfo.ai,ashby,runway
+ChargePoint,greenhouse,chargepoint
+Chili Piper,ashby,chilipiper
+Chime,greenhouse,chime
+ChowNow,lever,chownow
+Cin7,lever,cin7
+Civis Analytics,greenhouse,civisanalytics
+ClassDojo,ashby,classdojo
+ClassPass,ashby,classpass
+CLEAR,greenhouse,clear
+Clerk,ashby,clerk
+Clever,greenhouse,clever
+ClickHouse,ashby,clickhouse
+ClickUp,ashby,clickup
+Cloudflare,greenhouse,cloudflare
+Co-Star,greenhouse,costar
+Cockroach Labs,greenhouse,cockroachlabs
+Cohere,ashby,cohere
+Coinbase,greenhouse,coinbase
+Collective Health,greenhouse,collectivehealth
+Column,ashby,column
+Commure,ashby,commure
+Confido,ashby,confido
+CookUnity,greenhouse,cookunity
+CoreWeave,greenhouse,coreweave
+Coupa,lever,coupa
+Coursera,greenhouse,coursera
+Crexi,greenhouse,crexi
+Crusoe,ashby,crusoe
+CUBE,ashby,cube
+Culture Amp,greenhouse,cultureamp
+Current,greenhouse,current
+Cursor,ashby,cursor
+Dandelion Energy,ashby,dandelion
+Dashlane,greenhouse,dashlane
+Databricks,greenhouse,databricks
+Datadog,greenhouse,datadog
+Datarails,greenhouse,datarails
+Dave,ashby,dave
+Decagon,ashby,decagon
+Degreed,greenhouse,degreed
+Demandbase,ashby,demandbase
+Deploy,lever,hive
+DEPT,greenhouse,dept
+Dexterity,lever,dexterity
+Discord,greenhouse,discord
+Dispatch,ashby,dispatch
+DistroKid,greenhouse,distrokid
+Divergent,greenhouse,divergent
+Dolls Kill,lever,dollskill
+Doma,greenhouse,doma
+DoorDash,greenhouse,doordashusa
+Dremio,greenhouse,dremio
+Dropbox,greenhouse,dropbox
+DRW,greenhouse,drweng
+Dun & Bradstreet,lever,dnb
+Duolingo,greenhouse,duolingo
+Egen,lever,egen
+Eight Sleep,ashby,eightsleep
+ElevenLabs,ashby,elevenlabs
+Enova,greenhouse,enova
+Entrata,lever,entrata
+Epic Games,greenhouse,epicgames
+Epirus,greenhouse,epirus
+Etched,ashby,etched
+Everlane,greenhouse,everlane
+Everlywell,lever,everlywell
+Expel,greenhouse,expel
+Expensify,ashby,expensify
+Faire,greenhouse,faire
+Fanatics,greenhouse,fanaticsinc
+FanDuel,greenhouse,fanduel
+Farfetch,lever,farfetch
+Fictiv,greenhouse,fictiv
+Figma,greenhouse,figma
+Figure,greenhouse,figureai
+Figure Lending,greenhouse,figure
+Fin,greenhouse,intercom
+Findem,lever,findem
+Fireblocks,greenhouse,fireblocks
+Fireworks,ashby,fireworks
+Fivetran,greenhouse,fivetran
+Flatiron Health,greenhouse,flatironhealth
+Fleetio,greenhouse,fleetio
+Flexport,greenhouse,flexport
+Fly.io,lever,fly
+Form Energy,ashby,formenergy
+Formation Bio,ashby,formationbio
+Formation Bio,greenhouse,formationbio
+Formic,greenhouse,formic
+Formlabs,greenhouse,formlabs
+Forward,greenhouse,forward
+Found,ashby,found
+FourKites,greenhouse,fourkites
+Galileo,greenhouse,galileo
+Garner Health,greenhouse,garnerhealth
+Gemini,greenhouse,gemini
+General Assembly,greenhouse,generalassembly
+General Assembly,greenhouse,remote
+Generate Biomedicines,greenhouse,generatebiomedicines
+Ginkgo Bioworks,greenhouse,ginkgobioworks
+GitLab,greenhouse,gitlab
+Glimpse,ashby,glimpse
+Glossier,greenhouse,glossier
+Glow,ashby,glow
+GOAT Group,greenhouse,goatgroup
+GoodLeap,lever,goodleap
+GoodRx,ashby,goodrx
+Goop,greenhouse,goop
+Gorgias,ashby,gorgias
+Gorjana,greenhouse,gorjana
+Greenhouse,greenhouse,greenhouse
+Greenlight,lever,greenlight
+Groupon,greenhouse,groupon
+Grove Collaborative,greenhouse,grovecollaborative
+Guild,greenhouse,guild
+Guild.ai,ashby,guild
+Gusto,greenhouse,gusto
+H1,lever,h1
+Handshake,ashby,handshake
+Hanna Andersson,lever,hannaandersson
+Harry's,greenhouse,harrys
+Harvey,ashby,harvey
+Hatch,ashby,hatch
+HawkEye 360,greenhouse,hawkeye360
+Headway,ashby,headway
+HealthVerity,greenhouse,healthverity
+Helion,ashby,helion
+HelloFresh,greenhouse,hellofresh
+Help Scout,ashby,helpscout
+Hermeus,lever,hermeus
+Hex,ashby,hex
+Hexa,ashby,hexa
+Hightouch,ashby,hightouch
+Hologram,greenhouse,hologram
+Home Chef,greenhouse,homechef
+Homebase,ashby,homebase
+Honor,greenhouse,honor
+HubSpot,greenhouse,hubspotjobs
+Hungryroot,greenhouse,hungryroot
+Huntress,greenhouse,huntress
+IDEO,greenhouse,ideo
+IMC,greenhouse,imc
+Included Health,lever,includedhealth
+Insitro,ashby,insitro
+Instacart,greenhouse,instacart
+Instructure,ashby,instructure
+Instrument,lever,instrument
+Invisible Technologies,greenhouse,invisibletech
+Island,greenhouse,island
+Jellyfish,ashby,jellyfish
+Jellyvision,greenhouse,jellyvision
+Jump Trading,greenhouse,jumptrading
+JumpCloud,lever,jumpcloud
+Justworks,greenhouse,justworks
+Kairos Power,greenhouse,kairospower
+Kalshi,ashby,kalshi
+Kalshi,greenhouse,kalshi
+Kargo,ashby,kargo
+Kin Insurance,ashby,kin
+KIND,greenhouse,kindsnacks
+Klaviyo,greenhouse,klaviyo
+Knock,greenhouse,knock
+Kodiak,greenhouse,kodiak
+Komodo Health,greenhouse,komodohealth
+Labelbox,greenhouse,labelbox
+Lalamove,lever,lalamove
+Lambda,ashby,lambda
+Landmark Equipment,greenhouse,landmark
+LastPass,greenhouse,lastpass
+Lattice,greenhouse,lattice
+Leap,ashby,leap
+Lemonade,ashby,lemonade
+LendingTree,greenhouse,lendingtree
+Lightmatter,greenhouse,lightmatter
+Lightspeed,ashby,lightspeed
+Linear,ashby,linear
+Liquid Death,greenhouse,liquiddeath
+Liquid I.V.,greenhouse,liquidiv
+Locus Robotics,greenhouse,locusrobotics
+LogRocket,lever,logrocket
+Loop,lever,loopreturns
+Lucid Motors,greenhouse,lucidmotors
+Lyft,greenhouse,lyft
+Lyra Health,lever,lyrahealth
+Markforged,greenhouse,markforged
+Match Group,lever,matchgroup
+Maven,ashby,maven
+Medely,ashby,medely
+Medium,greenhouse,medium
+Mejuri,greenhouse,mejuri
+Mercor,ashby,mercor
+Metabase,lever,metabase
+MetaMask,greenhouse,consensys
+Metropolis,greenhouse,metropolis
+Middesk,ashby,middesk
+Mindbody,ashby,mindbody
+Mindgruve,greenhouse,mindgruve
+Miro,ashby,miro
+Misfits Market,greenhouse,misfitsmarket
+Mistplay,lever,mistplay
+Mixpanel,greenhouse,mixpanel
+MobilityWare,greenhouse,mobilityware
+Modal,ashby,modal
+Modern Animal,greenhouse,modernanimal
+Modern Health,greenhouse,modernhealth
+Modern Treasury,ashby,moderntreasury
+Moloco,greenhouse,moloco
+MongoDB,greenhouse,mongodb
+Monte Carlo,ashby,montecarlodata
+Morning Brew,lever,morningbrew
+Moroch,lever,moroch
+Mosaic,ashby,mosaic
+Motive,greenhouse,gomotive
+Nabla,ashby,nabla
+Nanit,greenhouse,nanit
+Narvar,greenhouse,narvar
+Natera,greenhouse,natera
+Navan,greenhouse,tripactions
+Netlify,greenhouse,netlify
+Netomi,lever,netomi
+Nextdoor,greenhouse,nextdoor
+Noodle,lever,noodle
+Notable,ashby,notable
+Notion,ashby,notion
+Novig,ashby,novig
+Nuna,ashby,nuna
+Nuro,greenhouse,nuro
+Octopus Energy Group,lever,octoenergy
+OfferUp,greenhouse,offerup
+Ogilvy,greenhouse,ogilvy
+Oklo,greenhouse,oklo
+Okta,greenhouse,okta
+OLIPOP,greenhouse,olipop
+Oliver Wyman Labs,lever,oliverwyman
+Olo,lever,olo
+Omada Health,greenhouse,omadahealth
+Omni,ashby,omni
+Omnidian,lever,omnidian
+One Medical,greenhouse,onemedical
+OpenAI,ashby,openai
+Oportun,greenhouse,oportun
+OppFi,greenhouse,opploans
+Optiver,greenhouse,optiverus
+Orca,ashby,orca
+Oscar Health,greenhouse,oscar
+Oura,greenhouse,oura
+Outreach,lever,outreach
+Outrider,greenhouse,outrider
+Outschool,ashby,outschool
+Owner.com,ashby,owner
+Pacaso,greenhouse,pacaso
+Palantir,lever,palantir
+Papa,greenhouse,papa
+Parachute Home,greenhouse,parachutehome
+Pariveda,ashby,pariveda
+Patreon,ashby,patreon
+Pattern,lever,pattern
+Payoneer,greenhouse,payoneer
+Peloton,greenhouse,peloton
+Perplexity,ashby,perplexity
+Persona,ashby,persona
+Philo,ashby,philo
+Physical Intelligence,ashby,physicalintelligence
+Pigment,lever,pigment
+Pinterest,greenhouse,pinterest
+Plaid,ashby,plaid
+Planet,greenhouse,planetlabs
+Polymarket,ashby,polymarket
+Pomelo Care,ashby,pomelo-care
+PostHog,ashby,posthog
+Prefect,ashby,prefect
+Primary,ashby,primary
+PrizePicks,greenhouse,prizepicks
+project44,greenhouse,project44
+Protolabs,lever,protolabs
+Public,greenhouse,public
+PubMatic,greenhouse,pubmatic
+Quince,greenhouse,quince
+Quora,ashby,quora
+R/GA,greenhouse,rga
+Railway,ashby,railway
+Ramp,ashby,ramp
+Reddit,greenhouse,reddit
+Redwood Materials,greenhouse,redwoodmaterials
+Reformation,greenhouse,reformation
+Relativity Space,greenhouse,relativity
+Relay Therapeutics,greenhouse,relaytherapeutics
+RELEX Solutions,greenhouse,relex
+Render,ashby,render
+Rent the Runway,greenhouse,renttherunway
+Replit,ashby,replit
+Revel,ashby,revel
+Revel,greenhouse,revel
+Ribbon.ai,lever,ribbon
+Riot Games,greenhouse,riotgames
+Ripple,greenhouse,ripple
+Ritual,greenhouse,ritual
+Ro,lever,ro
+Roadie,greenhouse,roadie
+Robinhood,greenhouse,robinhood
+Roblox,greenhouse,roblox
+Rocket Lab,greenhouse,rocketlab
+Rocket Money,greenhouse,truebill
+Roku,greenhouse,roku
+Route,greenhouse,route
+Rover,lever,rover
+Ruggable,greenhouse,ruggable
+Rula,ashby,rula
+Saatva,greenhouse,saatva
+Salesloft,greenhouse,salesloft
+Samsara,greenhouse,samsara
+Sanity,ashby,sanity
+Sardine,ashby,sardine
+Saronic,ashby,saronic
+Saviynt,lever,saviynt
+Scale AI,greenhouse,scaleai
+Scopely,greenhouse,scopely
+SeatGeek,greenhouse,seatgeek
+Seed,greenhouse,seed
+Sequoia,ashby,sequoia
+Sezzle,greenhouse,sezzle
+ShiftKey,ashby,shiftkey
+ShipMonk,greenhouse,shipmonk
+Sierra,ashby,sierra
+Sigma Computing,greenhouse,sigmacomputing
+Sila Services,lever,sila
+SimpliSafe,greenhouse,simplisafe
+SingleStore,greenhouse,singlestore
+Skydio,ashby,skydio
+Sleeper,ashby,sleeper
+Slice,greenhouse,slice
+Smalls,ashby,smalls
+SmartRent,greenhouse,smartrent
+Smartsheet,greenhouse,smartsheet
+Snorkel AI,greenhouse,snorkelai
+Snowflake,ashby,snowflake
+Snyk,ashby,snyk
+SoFi,greenhouse,sofi
+Sonatype,lever,sonatype
+SpaceX,greenhouse,spacex
+SPAN,ashby,span
+SPINS,greenhouse,spins
+Spire,greenhouse,spire
+SpotHero,greenhouse,spothero
+Spotify,lever,spotify
+Spreetail,lever,spreetail
+Springboard,greenhouse,springboard
+Sprout Social,greenhouse,sproutsocial
+Squarespace,greenhouse,squarespace
+Starburst,greenhouse,starburst
+Stitch Fix,greenhouse,stitchfix
+StockX,greenhouse,stockx
+Strava,ashby,strava
+Stripe,greenhouse,stripe
+Substack,ashby,substack
+Suki,greenhouse,suki
+Sunday Robotics,ashby,sunday
+Sunnova,greenhouse,sunnova
+Supabase,ashby,supabase
+Supergoop,greenhouse,supergoop
+Sweetgreen,greenhouse,sweetgreen
+Sword Health,greenhouse,swordhealth
+Sysdig,lever,sysdig
+Taboola,greenhouse,taboola
+Tala,lever,tala
+Talkspace,greenhouse,talkspace
+Tanium,greenhouse,tanium
+Taskrabbit,greenhouse,taskrabbit
+Tatcha,greenhouse,tatcha
+Tecovas,greenhouse,tecovas
+Tempo,greenhouse,tempo
+Tennr,ashby,tennr
+Tenstorrent,greenhouse,tenstorrent
+Texture,ashby,texture
+The Athletic,lever,theathletic
+The Farmer's Dog,greenhouse,thefarmersdog
+The New York Times,greenhouse,thenewyorktimes
+The Trade Desk,greenhouse,thetradedesk
+Thirdlove,greenhouse,thirdlove
+Thrive Causemetics,lever,thrivecausemetics
+Thrive Market,greenhouse,thrivemarket
+Tia,greenhouse,tia
+Toast,greenhouse,toast
+Together AI,greenhouse,togetherai
+Toloka,greenhouse,toloka
+Tonal,ashby,tonal
+Toptal,lever,toptal
+Tovala,lever,tovala
+Traba,ashby,traba
+Truveta,greenhouse,truveta
+Turing,greenhouse,turing
+Twilio,greenhouse,twilio
+Twitch,greenhouse,twitch
+Typeform,greenhouse,typeform
+Uber Freight,greenhouse,uberfreight
+Udacity,greenhouse,udacity
+Udemy,greenhouse,udemy
+UiPath,ashby,uipath
+Underdog,greenhouse,underdog
+Unite Us,greenhouse,uniteus
+Upstart,greenhouse,upstart
+Vanta,ashby,vanta
+Vast,greenhouse,vast
+Veeva,lever,veeva
+Veracyte,greenhouse,veracyte
+Vercel,greenhouse,vercel
+Verve,greenhouse,verve
+Vestwell,greenhouse,vestwell
+Virta Health,ashby,virtahealth
+Vital Farms,greenhouse,vitalfarms
+Vivid Seats,greenhouse,vividseatsllc
+Voltus,lever,voltus
+Vooma,ashby,vooma
+Vox Media,greenhouse,voxmedia
+VTS,greenhouse,vts
+WalkMe,lever,walkme
+Watershed,ashby,watershed
+Waymo,greenhouse,waymo
+Wealthfront,lever,wealthfront
+Webflow,ashby,webflow
+Weee!,greenhouse,weee
+WeRide.ai,lever,weride
+Whoop,ashby,whoop
+Wing,greenhouse,wing
+Wonderschool,greenhouse,wonderschool
+Workato,greenhouse,workato
+WorkOS,ashby,workos
+Wpromote,lever,wpromote
+Xometry,greenhouse,xometry
+Y Combinator,ashby,ycombinator
+Yext,greenhouse,yext
+Yotpo,greenhouse,yotpo
+YugabyteDB,greenhouse,yugabyte
+Zapier,ashby,zapier
+Zip,ashby,zip
+Zipline,greenhouse,flyzipline
+Zocdoc,greenhouse,zocdoc
+ZoomInfo,greenhouse,zoominfo
+Zoox,lever,zoox
+Zuora,greenhouse,zuora
+Zwift,greenhouse,zwift

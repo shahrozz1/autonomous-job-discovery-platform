@@ -1,0 +1,210 @@
+# The skills to look for in a posting.
+#   match       found in any capitalization
+#   match_case  found only when capitalized exactly like this
+#   except      a match inside one of these doesn't count
+# All are regular expressions, checked one line at a time.
+
+[[skill]]
+name = "Excel"
+# "Excel" is also a verb, and job postings love it: "you will excel in this role", "Excel in a
+# fast-paced environment". Capitalized, it counts unless it opens a sentence as a verb. Lowercase,
+# it counts only next to words that make it clearly the software.
+match = [
+  '\b(microsoft|ms|office|advanced|intermediate)[ -]*excel\b',
+  '\bexcel (skills?|spreadsheets?|models?|modeling|formulas?|functions?|macros?|workbooks?|proficiency|pivot)',
+  '\b(word|powerpoint|outlook|access|sheets|tableau|sql|python|suite|like|using|via)[,/ &(]+(and |or )?excel\b(?! (in|at|as|both|under|within)\b)',
+  '\bexcel[,/ &]+(and |or )?(word|powerpoint|outlook|google|sql|tableau|power ?bi|vba|python|sheets)\b',
+  '\b(proficien\w+|fluen\w+|experience|knowledge|skilled|expertise|command) (in|with|of|using) excel\b',
+  '\b(use|using|utiliz\w+|with) excel\b',
+]
+match_case = ['\bExcel\b', '\bEXCEL\b']
+except = ['(^|^- |[.!?:;]\s+)Excel (in|at|as|under|within|while|when|by|both|through|and (grow|thrive))\b']
+
+[[skill]]
+name = "SQL"
+match = ['\b(sql|mysql|postgres(ql)?|t-?sql|pl/?sql)\b']
+except = ['\bno-?sql\b']
+
+[[skill]]
+name = "Python"
+match = ['\bpython\b']
+
+[[skill]]
+name = "R"
+match = ['\brstudio\b']
+match_case = [
+  '\b(Python|SQL|SAS|Stata|SPSS|MATLAB|Matlab|Julia|Tableau|Excel)\b[^.;\n]{0,25}\bR\b(?!\s?&|\.)',
+  '\bR\b(?!\s?&)(?=[^.;\n]{0,25}\b(Python|SQL|SAS|Stata|SPSS|MATLAB|Matlab|Julia|Tableau)\b)',
+  '\bR (programming|language|Studio)\b',
+]
+except = ['R\s?&\s?D']
+
+[[skill]]
+name = "Tableau"
+match = ['\btableau\b']
+
+[[skill]]
+name = "Power BI"
+match = ['\bpower ?bi\b']
+
+[[skill]]
+name = "Looker"
+match = ['\blooker\b']
+
+[[skill]]
+name = "Google Sheets"
+match = ['\b(google|g)[ -]?sheets\b', '\bexcel\s?(/|or|and|,|&)\s?sheets\b', '\bsheets\s?(/|or)\s?excel\b']
+
+[[skill]]
+name = "PowerPoint"
+match = ['\bpower ?point\b', '\bgoogle slides\b']
+
+[[skill]]
+name = "VBA"
+match_case = ['\bVBA\b']
+
+[[skill]]
+name = "SAS"
+match_case = ['\bSAS\b']
+
+[[skill]]
+name = "Alteryx"
+match = ['\balteryx\b']
+
+[[skill]]
+name = "dbt"
+match_case = ['\bdbt\b', '\bDBT\b']
+
+[[skill]]
+name = "Snowflake"
+match = ['\bsnowflake\b']
+
+[[skill]]
+name = "BigQuery"
+match = ['\bbig ?query\b']
+
+[[skill]]
+name = "Databricks"
+match = ['\bdatabricks\b']
+
+[[skill]]
+name = "Salesforce"
+match = ['\bsalesforce\b', '\bsfdc\b']
+
+[[skill]]
+name = "HubSpot"
+match = ['\bhubspot\b']
+
+[[skill]]
+name = "Gainsight"
+match = ['\bgainsight\b']
+
+[[skill]]
+name = "NetSuite"
+match = ['\bnet ?suite\b']
+
+[[skill]]
+name = "SAP"
+match_case = ['\bSAP\b']
+
+[[skill]]
+name = "Oracle"
+match = ['\boracle\b']
+
+[[skill]]
+name = "Anaplan"
+match = ['\banaplan\b']
+
+[[skill]]
+name = "ERP systems"
+match = ['\berps?\b', 'enterprise resource planning']
+
+[[skill]]
+name = "MRP"
+match = ['\bmrp\b', 'materials? requirements? planning']
+
+[[skill]]
+name = "Jira"
+match = ['\bjira\b']
+
+[[skill]]
+name = "Airtable"
+match = ['\bairtable\b']
+
+[[skill]]
+name = "Git"
+match = ['\bgit(hub|lab)?\b']
+
+[[skill]]
+name = "pandas"
+match = ['\bpandas\b']
+
+[[skill]]
+name = "Dashboards"
+match = ['\bdashboards?\b', '\bdashboarding\b']
+
+[[skill]]
+name = "Data visualization"
+match = ['\bdata visuali[sz]ations?\b', '\bvisuali[sz]ation (tools?|software)\b', '\bvisuali[sz]ing data\b']
+
+[[skill]]
+name = "Data modeling"
+match = ['\bdata model(s|ing|ling)?\b']
+
+[[skill]]
+name = "ETL"
+match_case = ['\bE[LT]{2}\b']
+match = ['\bdata pipelines?\b']
+
+[[skill]]
+name = "Statistics"
+match = ['\bstatistics\b', '\bstatistical\b', '\bregression\b']
+except = ['bureau of labor statistics']
+
+[[skill]]
+name = "A/B testing"
+match = ['\ba/b test', '\bab test', '\bexperiment(ation| design)\b']
+
+[[skill]]
+name = "Forecasting"
+match = ['\bforecast(s|ing|ed)?\b']
+
+[[skill]]
+name = "Machine learning"
+match = ['\bmachine learning\b']
+
+[[skill]]
+name = "Financial modeling"
+match = ['\bfinancial model(s|ing|ling)?\b']
+
+[[skill]]
+name = "Inventory management"
+match = ['\binventory (management|control|planning|levels?|accuracy|optimi[sz]ation)\b', '\bmanag\w+ inventory\b']
+
+[[skill]]
+name = "Demand planning"
+match = ['\bdemand plan', '\bs&op\b', '\bsales (and|&) operations planning\b']
+
+[[skill]]
+name = "Procurement"
+match = ['\bprocurement\b', '\bpurchase orders?\b', '\bpurchasing\b']
+
+[[skill]]
+name = "Vendor management"
+match = ['\b(vendor|supplier) (management|relations\w*|performance|negotiat\w+)\b', '\bmanag\w+ (vendors|suppliers)\b', '\bnegotiat\w+ (with )?(vendors|suppliers|contracts)\b']
+
+[[skill]]
+name = "Project management"
+match = ['\bproject management\b', '\bmanag\w+ (multiple )?projects\b', '\bpmp\b']
+
+[[skill]]
+name = "Process improvement"
+match = ['\bprocess(es)? (improvement|optimi[sz]ation|re-?design)', '\bsix sigma\b', '\blean (manufacturing|principles|six)', '\bcontinuous improvement\b', '\bkaizen\b']
+
+[[skill]]
+name = "AI tools"
+# Only when the person is expected to use AI, not when the company sells it.
+match = [
+  '\b(us(e|ing)|leverag\w+|comfort\w*|experience|experiment\w*|familiar\w*|proficien\w+|fluen\w+|adopt\w*|curious|curiosity|hands-on)\b[^.;\n]{0,40}\b(ai[ -](tools?|assistants?|agents?|powered tools?|workflows?|native tools?)|llms?|large language models?|generative ai|genai|chatgpt|claude|copilot)\b',
+  '\bai (fluency|literacy)\b', '\bprompt engineering\b',
+]

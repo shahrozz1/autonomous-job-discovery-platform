@@ -1,0 +1,11 @@
+{
+  "id": 101,
+  "title": "Supply Chain Analyst",
+  "content": "&lt;p&gt;Maple Goods sells kitchen tools.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;What you&#39;ll do&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Forecast demand and set reorder points&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1-3 years of experience in supply chain or retail&lt;/li&gt;&lt;li&gt;Strong Excel and SQL&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Nice to have&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Tableau&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;401(k) with a $2,000 to $4,000 match&lt;/li&gt;&lt;/ul&gt;",
+  "departments": [{ "name": "Operations " }],
+  "offices": [{ "name": "HQ", "location": "Dallas, Texas, United States" }],
+  "pay_input_ranges": [
+    { "min_cents": 3100, "max_cents": 3600, "currency_type": "USD", "title": "Hourly" },
+    { "min_cents": 9000000, "max_cents": 9900000, "currency_type": "USD", "title": "Level 2" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": 101,
+      "title": " Supply Chain  Analyst",
+      "company_name": "Maple Goods",
+      "absolute_url": "https://boards.greenhouse.io/maplegoods/jobs/101",
+      "location": { "name": "Dallas, TX" },
+      "first_published": "2026-11-20T09:00:00-05:00",
+      "updated_at": "2026-11-21T10:00:00-05:00"
+    },
+    {
+      "id": 102,
+      "title": "Business Analyst",
+      "company_name": "Maple Goods",
+      "absolute_url": "https://boards.greenhouse.io/maplegoods/jobs/102",
+      "location": { "name": "Hybrid" },
+      "first_published": "2026-11-18T09:00:00-05:00",
+      "updated_at": "2026-11-18T09:00:00-05:00"
+    },
+    {
+      "id": 103,
+      "title": "Senior Data Analyst",
+      "company_name": "Maple Goods",
+      "absolute_url": "https://boards.greenhouse.io/maplegoods/jobs/103",
+      "location": { "name": "Chicago, IL" },
+      "first_published": "2026-11-18T09:00:00-05:00",
+      "updated_at": "2026-11-18T09:00:00-05:00"
+    },
+    {
+      "id": 104,
+      "title": "Data Analyst",
+      "company_name": "Maple Goods",
+      "absolute_url": "https://boards.greenhouse.io/maplegoods/jobs/104",
+      "location": { "name": "London, UK" },
+      "first_published": "2026-11-18T09:00:00-05:00",
+      "updated_at": "2026-11-18T09:00:00-05:00"
+    }
+  ]
+}

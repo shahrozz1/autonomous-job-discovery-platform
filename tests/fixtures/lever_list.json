@@ -1,0 +1,23 @@
+[
+  {
+    "id": "a1b2",
+    "text": "Operations Coordinator",
+    "hostedUrl": "https://jobs.lever.co/harborline/a1b2",
+    "createdAt": 1795564800000,
+    "country": "US",
+    "workplaceType": "on-site",
+    "categories": {
+      "location": "Chicago, IL",
+      "allLocations": ["Chicago, IL", "Remote"],
+      "commitment": "Full-time",
+      "team": "Operations"
+    },
+    "opening": "<div>Harborline moves freight.</div>",
+    "descriptionBody": "<div><b>The role</b></div><div>Keep shipments on schedule.</div>",
+    "lists": [
+      { "text": "What you need:", "content": "<li>2+ years of experience in logistics</li><li>Google Sheets</li>" }
+    ],
+    "additional": "<div>We are an equal opportunity employer.</div>",
+    "salaryRange": { "currency": "USD", "interval": "per-hour-wage", "min": 25, "max": 30 }
+  }
+]

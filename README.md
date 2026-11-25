@@ -89,13 +89,13 @@ Needs Python 3.11 or newer.
 git clone https://github.com/shahrozz1/autonomous-job-discovery-platform.git
 cd autonomous-job-discovery-platform
 python -m venv .venv && source .venv/bin/activate
-pip install -e ".[dev]"
+pip install -e ".[dev,ai]"
 
 python -m roleful run                                              # read every board (3 to 4 minutes)
 python -m roleful search "demand planning" --max-years 2           # search from the terminal
 python -m roleful search sql --market "New York" --min-score 70
 python -m roleful export && python -m http.server -d site 8000     # dashboard at localhost:8000
-pytest                                                             # 188 tests, no network needed
+pytest                                                             # 188 tests, no network or API key needed
 ```
 
 | Command | What it does |
@@ -107,7 +107,7 @@ pytest                                                             # 188 tests, 
 | `evaluate` | Measure how accurate the extraction rules are |
 | `refresh` | Recompute facts and scores from stored text, no network |
 | `export` | Write the dashboard's data files |
-| `enrich` | Have Claude read new postings (optional: `pip install -e ".[ai]"` and an API key) |
+| `enrich` | Have Claude read new postings (optional, needs an API key) |
 
 To look for a different kind of job, edit [`config/profile.toml`](config/profile.toml). To add a company, add its board to [`config/boards.csv`](config/boards.csv). Neither needs a code change.
 

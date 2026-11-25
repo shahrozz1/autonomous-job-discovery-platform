@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roleful: entry-level analyst and operations jobs</title>
+    <meta
+      name="description"
+      content="Entry-level analyst and operations jobs, read straight from company career pages, deduplicated and scored."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <h1>Roleful</h1>
+        <p>Entry-level analyst and operations jobs, read straight from company career pages.</p>
+      </div>
+      <p class="meta">
+        <span id="updated"></span>
+        <a href="https://github.com/shahrozz1/autonomous-job-discovery-platform">Code on GitHub</a>
+      </p>
+    </header>
+
+    <main>
+      <dl class="tiles" id="tiles" aria-label="Summary of the latest run"></dl>
+
+      <div class="tabs" role="tablist" aria-label="Views">
+        <button role="tab" id="tab-jobs" aria-controls="panel-jobs" aria-selected="true">Jobs</button>
+        <button role="tab" id="tab-data" aria-controls="panel-data" aria-selected="false" tabindex="-1">
+          What the data says
+        </button>
+      </div>
+
+      <div class="filters" id="filters">
+        <label class="wide">
+          Search
+          <input id="f-search" type="search" placeholder="Title or company" autocomplete="off" />
+        </label>
+        <label>Job family <select id="f-family"></select></label>
+        <label>Market <select id="f-market"></select></label>
+        <label class="jobs-only">
+          Experience asked
+          <select id="f-years">
+            <option value="">Any</option>
+            <option value="0">None</option>
+            <option value="1">1 year or less</option>
+            <option value="2" selected>2 years or less</option>
+            <option value="3">3 years or less</option>
+          </select>
+        </label>
+        <label>Skill <select id="f-skill"></select></label>
+        <label class="jobs-only">
+          Sort
+          <select id="f-sort">
+            <option value="score">Best fit</option>
+            <option value="posted">Newest</option>
+            <option value="pay">Highest pay</option>
+          </select>
+        </label>
+      </div>
+
+      <section id="panel-jobs" role="tabpanel" aria-labelledby="tab-jobs">
+        <p class="count" id="count" aria-live="polite"></p>
+        <ol class="jobs" id="jobs"></ol>
+        <button class="more" id="more" hidden>Show more</button>
+        <p class="note" id="profile-note"></p>
+      </section>
+
+      <section id="panel-data" role="tabpanel" aria-labelledby="tab-data" hidden>
+        <p class="count" id="data-count" aria-live="polite"></p>
+        <div class="charts" id="charts"></div>
+        <p class="note">
+          These are the companies on the board list, not the whole job market. Large hardware companies such as SpaceX
+          and Anduril list many similar roles, so they weigh heavily in supply chain and buying.
+        </p>
+      </section>
+    </main>
+
+    <div class="tip" id="tip" role="status" hidden></div>
+    <script src="app.js" defer></script>
+  </body>
+</html>

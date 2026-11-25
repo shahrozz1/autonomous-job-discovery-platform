@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.sql linguist-detectable=true linguist-language=SQL
+site/data/** linguist-generated=true
+tests/fixtures/** linguist-vendored=true

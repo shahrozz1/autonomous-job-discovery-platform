@@ -1,0 +1,83 @@
+# What to look for and what counts as a good match. Edit this file to point the platform at a
+# different kind of job; no code changes needed.
+
+[candidate]
+skills = ["SQL", "Python", "Excel", "Tableau", "Power BI", "pandas", "Google Sheets", "PowerPoint",
+          "Dashboards", "Data visualization", "Forecasting", "Inventory management", "Procurement",
+          "Vendor management", "Salesforce", "Gainsight", "AI tools"]
+max_years = 2                # the most experience a posting can ask for before it loses points
+pay_floor = 55000            # yearly dollars; postings that list less than this lose points
+senior_pay = 130000          # a starting salary this high means a senior role, whatever the title
+markets = ["Dallas", "New York", "Chicago", "California", "Remote"]
+
+[score]                      # points available for each part; they add up to 100
+skills = 35
+experience = 30
+location = 15
+freshness = 15
+pay = 5
+
+# A title is kept when it matches a family below and none of the "skip" patterns.
+# Patterns are regular expressions, matched without regard to case.
+[titles]
+skip = [
+  # too senior
+  '\b(senior|sr|snr|lead|principal|manager|mgr|director|staff|head|vp|vice president|chief|president|executive|supervisor|partner|leader)\b',
+  '\b(iii|iv|v|[3-9])$', '\b(iii|iv)\b',
+  # not a full-time office role
+  '\b(intern|internship|co-?op|apprentice|working student|fellow|part[- ]time|seasonal|temp|temporary)\b',
+  '\b(shift|overnight|warehouse|driver|technician|pilot|team member|store|retail (inventory )?consultant|field|full[- ]time|variable schedule)\b',
+  '#\s?\d+|\b(robot|uas|fleet|flexdrive|forklift|gmp|avionics|materials characterization|guest services|service desk|help desk)\b',
+  'talent community|general interest|future opportunit|hiring event|join our|expression of interest',
+  # a different profession
+  '\b(engineer|engineering|developer|scientist|architect|attorney|counsel|nurse|physician|clinical|medical|trader|trading|quant\w*)\b',
+  '\b(tax|payroll|accounting|accounts|collections|treasury|audit|sox|compensation|benefits|financ\w+|fp&a|equity)\b',
+  '\b(security|threat|soc|grc|privacy|fraud|aml|kyc|cdd|fincrime|crime|sanctions|intelligence analyst - cyber|enforcement|safeguards?)\b',
+  '\b(hr|hris|human resource\w*|people|recruit\w*|talent|legal|compliance|credit|underwriting|loan|real estate|facilities)\b',
+  '\b(sales development|account executive|sdr|bdr|business development|media buyer|visual merchandis\w*|social media)\b',
+  '\b(investment|banking|capital markets|actuarial|risk|workday|network|it|systems?|validation|qa|test|localization)\b',
+  '\b(speak(er|ing)|bilingual|spanish|french|german|italian|japanese|korean|mandarin|portuguese|arabic)\b|f/m/[xd]|all genders',
+]
+
+[[titles.family]]
+name = "Data and BI"
+match = [
+  '\b(data|business intelligence|bi|reporting|analytics|insights?|product|marketing|growth|web|customer|commercial|commerce|measurement|performance|crm|cx|content|media|audience|consumer|market|research|lifecycle|experimentation)\b[\w &,/-]*\banalyst\b',
+  '\banalyst\b[ ,-]+[\w &,/-]*\b(data|insights?|analytics|measurement|product|marketing|growth|bi|business intelligence|reporting)\b',
+  '\b(data|analytics|insights?|reporting)\b[\w &/-]*\b(associate|specialist|coordinator)\b',
+]
+
+[[titles.family]]
+name = "Business and operations analyst"
+match = [
+  '\b(business|operations?|ops|strategy|strategic|revenue|revops|gtm|sales|deal|process|program|project|workforce|wfm|capacity|planning|support|service|enablement|automation)\b[\w &,/()-]*\banalyst\b',
+  '\banalyst\b[ ,-]+[\w &,/()-]*\b(business|operations?|ops|strategy|revenue|gtm|sales|planning|workforce)\b',
+  '\b(business operations|strategy (&|and) operations|biz ?ops|revenue operations|gtm operations)\b(?! manager)',
+  '^(business |associate )?analyst$', '^associate analyst\b',
+]
+
+[[titles.family]]
+name = "Supply chain and inventory"
+match = [
+  '\b(supply chain|inventory|demand|supply|replenishment|allocation|logistics|fulfil+ment|transportation|production|materials?|freight|ocean|air|s&op)\b[\w &,/-]*\b(analyst|planner|specialist|coordinator|planning associate|scheduler|allocator)\b',
+  '\b(analyst|planner|specialist|coordinator|associate)\b[ ,-]+[\w &,/-]*\b(supply chain|inventory|demand planning|logistics|replenishment|transportation)\b',
+  '\b(supply chain|logistics|global operations|ocean operations|air operations|ocean planning|ocean and air operations)\b[\w &,/-]*\bassociate\b',
+  '^(demand|supply|inventory|merchandise|allocation) (planner|planning)\b', '\ballocator\b',
+]
+
+[[titles.family]]
+name = "Buying, pricing and merchandising"
+match = [
+  '\b(assistant|associate|junior|jr\.?|procurement|operational|retail|regional|category)?\s*\bbuyer\b',
+  '\b(procurement|purchasing|sourcing|pricing|category|merchandis(e|ing)|assortment|vendor|supplier)\b[\w &,/-]*\b(analyst|planner|coordinator|specialist|associate|assistant)\b',
+  '\b(analyst|coordinator|specialist|associate|assistant)\b[ ,-]+[\w &,/-]*\b(procurement|purchasing|sourcing|pricing|merchandising|category)\b',
+]
+
+[[titles.family]]
+name = "Operations associate and coordinator"
+match = [
+  '\b(operations|ops)\b[\w &,/-]*\b(associate|coordinator|specialist|generalist|analyst)\b',
+  '\b(associate|coordinator|specialist)\b[ ,-]+[\w &,/-]*\b(operations|ops)\b',
+  '\b(implementation|onboarding)\b[\w &,/-]*\b(associate|specialist|coordinator|analyst)\b',
+  '\b(program|project|marketplace|order management|e-?commerce|catalog)\b[\w &,/-]*\b(coordinator|associate)\b',
+]
